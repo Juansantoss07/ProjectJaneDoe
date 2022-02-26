@@ -134,4 +134,19 @@
                 }
             }
         }
+
+        @media(max-width:600px){
+            .contact-img{
+                padding: .5rem;
+            }
+
+            .form{
+                width: 100%;
+                padding: 0;
+            }
+
+            .btn-sub{
+                width: 100% !important;
+            }
+        }
 </style>

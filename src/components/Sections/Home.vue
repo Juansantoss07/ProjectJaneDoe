@@ -34,7 +34,11 @@
             font-size: 15px;
             margin: 2rem 0;
         }
+    }
 
-
+    @media(max-width:600px){
+        h1{
+            text-align: center;
+        }
     }
 </style>

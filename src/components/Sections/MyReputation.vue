@@ -101,6 +101,30 @@ export default {
       justify-content: flex-start;
       align-items: center;
     }
+
+    .des-person{
+      text-align: center;
+    }
   }
+}
+
+@media(max-width:600px){
+  .person{
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+    .name-person{
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+        p{
+      width: 100%;
+      text-align: center;
+    }
+    }
+  }
+   
 }
 </style>

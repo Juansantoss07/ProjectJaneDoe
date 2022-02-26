@@ -51,4 +51,17 @@ export default {
   margin: 0.5rem 0;
 }
 }
+
+@media(max-width:600px){
+  .container-port{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .img-port1, .img-port2{
+      width: 100%;
+      padding: 1rem;
+    }
+  }
+}
 </style>

@@ -130,4 +130,14 @@ export default {
     padding: 1rem 2rem;
   }
 }
+
+@media(max-width:600px){
+  .numbers-skills{
+    flex-direction: column;
+
+    .pnumber{
+      padding: 1rem 0;
+    }
+  }
+}
 </style>

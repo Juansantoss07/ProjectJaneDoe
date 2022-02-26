@@ -42,3 +42,14 @@ footer{
             }
         }
 }
+
+@media(max-width:600px){
+    .content-footer{
+        padding: 0 !important;
+    }
+
+    .links-sociais{
+        justify-content: space-around;
+        width: 100% !important;
+    }
+}

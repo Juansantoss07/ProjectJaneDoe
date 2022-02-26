@@ -151,4 +151,15 @@
         }
 
     }
+
+    @media(max-width:600px){
+        .container-price{
+            flex-direction: column !important;
+
+            .table{
+                width: 100% !important;
+                margin: 1rem 0;
+            }
+        }
+    }
 </style>

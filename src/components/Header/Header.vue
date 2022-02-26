@@ -25,7 +25,7 @@
         </button>
         <nav class="sidebar w3-animate-right" id="nav">
              <button @click="close" class="menu-btn-close" id="btn-mobile">
-            <i class="bi bi-list"></i>
+           <i class="bi bi-x-lg"></i>
         </button>
             <div class="links">
                 <ul>

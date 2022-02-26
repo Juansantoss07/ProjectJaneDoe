@@ -17,12 +17,7 @@ export default {
 </template>
 
 <style lang="scss">
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-}
+
 .home {
   display: flex;
   flex-direction: row;
@@ -51,6 +46,10 @@ export default {
                 font-size: 18px;
                 padding-right: .5rem;
             }
+        }
+
+        button:hover{
+          background: #CCCCCC;
         }
 
 

@@ -6,13 +6,10 @@
         methods:{
             menu(){
                 document.getElementById('nav').style.display = 'flex';
-                document.getElementById('btn-mobile').style.display = 'none';
             },
             
             close(){
                 document.getElementById('nav').style.display = 'none';
-                document.getElementById('btn-mobile').style.position = 'fixed';
-                document.getElementById('btn-mobile').style.display = 'block';
             }
         }
     }
@@ -23,20 +20,20 @@
 <template>
 <div class="box-nav">
      <div class="content-header">
-        <button @click="menu" class="menu-btn" id="btn-mobile">
+        <button @click="menu" class="menu-btn w3-animate-right" id="btn-mobile">
             <i class="bi bi-list"></i>
         </button>
-        <nav class="sidebar" id="nav">
+        <nav class="sidebar w3-animate-right" id="nav">
              <button @click="close" class="menu-btn-close" id="btn-mobile">
             <i class="bi bi-list"></i>
         </button>
             <div class="links">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
-                        <a href="#">Portfolio</a>
-                        <a href="#">About</a>
-                        <a href="#">Contact</a>
+                        <a @click="close" href="#home">Home</a>
+                        <a @click="close" href="#port">Portfolio</a>
+                        <a @click="close" href="#about">About</a>
+                        <a @click="close" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>

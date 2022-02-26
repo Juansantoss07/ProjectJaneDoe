@@ -7,7 +7,7 @@ export default {
 <template>
   <div class="content-reput">
     <div class="title">
-      <h1>My MyReputation</h1>
+      <h1>My Reputation</h1>
     </div>
 
     <div class="info-reput">
@@ -86,10 +86,20 @@ export default {
     flex-direction: column;
     justify-content: space-evenly;
 
+      p{
+        width: 50%;
+        margin-left: 1rem;
+        color: #868686;
+      }
+
+      .des-person{
+        color: #868686;
+      }
     .name-person {
       display: flex;
-      width: 42%;
-      justify-content: space-between;
+      width: 100%;
+      justify-content: flex-start;
+      align-items: center;
     }
   }
 }

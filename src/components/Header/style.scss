@@ -31,12 +31,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
-    transition: 6s;
+    transition: .5s;
     position: fixed;
     overflow: auto;
     z-index: 1;
     width: 60%;
+    right: 0;
+    display: none;
+   
 
     .links{
         height: 100%;

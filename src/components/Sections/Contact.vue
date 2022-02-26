@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <div class="content-contact">
+    <div class="content-contact" id="contact">
         <div class="title">
             <h1>Contact Me</h1>
         </div>

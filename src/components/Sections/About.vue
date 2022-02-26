@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div class="content-about">
+  <div class="content-about" id="about">
     <div class="title">
       <h1>About</h1>
     </div>

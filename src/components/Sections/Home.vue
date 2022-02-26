@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <div>
+    <div id="home">
         <h1>Jane Doe</h1>
         <p>Photographer and Web Designer.</p>
         <button>
@@ -26,6 +26,7 @@
         h1{
             color: #000;
             font-size: 64px;
+            font-weight: 500;
         }
 
         p{

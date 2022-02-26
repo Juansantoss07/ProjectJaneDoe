@@ -17,7 +17,7 @@ export default {
     <div class="img-port2">
       <img src="/public/img/underwater.jpg" alt="" />
       <img src="/public/img/chef.jpg" alt="" />
-      <img src="/public/img/wedding (1).jpg" alt="" />
+      <img src="/public/img/weddingone.jpg" alt="" />
       <img src="/public/img/p6.jpg" alt="" />
     </div>
   </div>

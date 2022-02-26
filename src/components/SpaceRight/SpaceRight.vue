@@ -7,10 +7,12 @@
     import MyPrice from "../Sections/MyPrice.vue"
     import Contact from "../Sections/Contact.vue"
     import Footer from "../Footer/Footer.vue"
+    import Header from "../Header/Header.vue"
 
     export default{
         name:"SpaceRight",
         components:{
+    Header,
     Home,
     MyPortfolio,
     About,
@@ -25,6 +27,7 @@
 
 <template>
 <div class="sections">
+    <Header/>
      <Home/>
     <MyPortfolio/>
     <About/>
